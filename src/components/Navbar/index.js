@@ -64,17 +64,8 @@ const NavBar = () => {
           </motion.li>
 
           <motion.li
-            initial={{ x: "100%", scale: 0 }}
+            initial={{ x: "-100%", scale: 0 }}
             animate={{ x: 0, scale: 1 }}
-            transition={{ delay: 0 }}
-            className="flex items-center hover:border-b-4"
-          >
-            <a href="#skills">Skills</a>
-          </motion.li>
-
-          <motion.li
-            initial={{ y: "-100%", scale: 0 }}
-            animate={{ y: 0, scale: 1 }}
             transition={{ delay: 0.7 }}
             className="flex items-center hover:border-b-4"
           >
@@ -84,6 +75,15 @@ const NavBar = () => {
           <motion.li
             initial={{ y: "100%", scale: 0 }}
             animate={{ y: 0, scale: 1 }}
+            transition={{ delay: 0 }}
+            className="flex items-center hover:border-b-4"
+          >
+            <a href="#skills">Skills</a>
+          </motion.li>
+
+          <motion.li
+            initial={{ x: "100%", scale: 0 }}
+            animate={{ x: 0, scale: 1 }}
             transition={{ delay: 0.3 }}
             className="flex items-center hover:border-b-4"
           >

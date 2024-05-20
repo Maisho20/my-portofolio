@@ -1,8 +1,11 @@
 const About = () => {
   return (
-    <section className="min-h-screen pt-20 flex items-center" id="about">
+    <section
+      className="min-h-screen md:pt-10 pt-5 flex items-center"
+      id="about"
+    >
       <div
-        className="container mx-auto p-5 flex flex-col justify-center"
+        className="container mx-auto px-5 flex flex-col justify-center"
         data-aos=""
       >
         <h1

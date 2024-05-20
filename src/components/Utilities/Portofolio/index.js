@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const Portofolio = () => {
   return (
-    <section className="min-h-screen pt-0 md:pt-20 flex items-center" id="home">
-      <div className="container mx-auto p-5">
+    <section className="min-h-screen md:pt-10 pt-0 flex items-center" id="home">
+      <div className="container mx-auto px-5">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center">
           <div>
             <motion.h1
@@ -13,7 +13,8 @@ const Portofolio = () => {
               transition={{ duration: 0.5, delay: 0 }}
               className="text-2xl md:text-5xl font-bold mb-4"
             >
-              Sabbaha Naufal Erwanda
+              Sabbaha Naufal <br />
+              Erwanda
             </motion.h1>
 
             <motion.h1

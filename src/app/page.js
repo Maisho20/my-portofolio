@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import Portofolio from "../components/Utilities/Portofolio";
 import About from "../components/Utilities/About";
 import Education from "../components/Utilities/Education";
+import Experiences from "@/components/Utilities/Experiences";
+import Projects from "@/components/Utilities/Projects";
+import Skills from "@/components/Utilities/Skills";
 
 const Home = () => {
   return (
@@ -20,6 +23,18 @@ const Home = () => {
         {/* education */}
         <Education />
         {/* end education */}
+
+        {/* experiences */}
+        <Experiences />
+        {/* end experiences */}
+
+        {/* projects */}
+        <Projects />
+        {/* end projects */}
+
+        {/* skills */}
+        <Skills />
+        {/* end skills */}
       </div>
     </div>
   );

@@ -12,7 +12,7 @@
 
 /* custom scroll bar */
 html::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.2rem;
   background: transparent;
   scroll-behavior: smooth;
 }
@@ -61,6 +61,16 @@ body {
   animation: rotate 5s linear infinite;
 }
 
+@media (max-width: 768px) {
+  .hero-image-container {
+    width: 300px;
+    height: 300px;
+  }
+  .hero-image-container::before {
+    width: 250px;
+  }
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -87,4 +97,13 @@ body {
   background-attachment: cover;
   background-position: center;
   background-size: cover;
+}
+
+.project:hover {
+  scale: 1.01;
+  transition: ease-in all 0.3s;
+  -webkit-transition: ease-in all 0.3s;
+  -moz-transition: ease-in all 0.3s;
+  -ms-transition: ease-in all 0.3s;
+  -o-transition: ease-in all 0.3s;
 }
