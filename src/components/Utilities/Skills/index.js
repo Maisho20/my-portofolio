@@ -3,21 +3,25 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section
-      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-10 pt-5 flex items-center"
+      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-20 pt-5 flex items-center"
       id="skills"
     >
       <div className="container mx-auto px-5">
-        <h1
-          className="text-center font-bold text-4xl mb-10"
-          data-aos="fade-down"
-        >
+        <h1 className="text-center font-bold text-4xl mb-10" data-aos="fade-up">
           Skills
         </h1>
         <div className="flex flex-col md:flex-row items-center md:grid md:grid-cols">
-          <div className="grid grid-cols-3 md:grid-cols-4 gap-8 text-xs md:text-sm shadow-lg shadow-gray-300 rounded p-5">
+          <div
+            className="grid grid-cols-3 md:grid-cols-4 gap-8 text-xs md:text-sm shadow-lg shadow-gray-300 rounded p-5"
+            data-aos="fade-down"
+          >
             {/* 1 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="100"
+              >
                 <Image
                   src="/image/tools/html.png"
                   alt="..."
@@ -26,11 +30,21 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">HTML</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                HTML
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 2 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="100"
+              >
                 <Image
                   src="/image/tools/js.png"
                   alt="..."
@@ -39,11 +53,21 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">Javascript</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+                data-aos-delay="100"
+              >
+                Javascript
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 3 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="100"
+              >
                 <Image
                   src="/image/tools/css.png"
                   alt="..."
@@ -52,11 +76,21 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">CSS</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
+                CSS
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 4 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+                data-aos-delay="100"
+              >
                 <Image
                   src="/image/tools/php.png"
                   alt="..."
@@ -65,11 +99,20 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">PHP</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
+                PHP
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 5 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/laravel.png"
                   alt="..."
@@ -78,11 +121,19 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">Laravel</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+              >
+                Laravel
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 6 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/nextjs.png"
                   alt="..."
@@ -91,11 +142,19 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">NextJS</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+              >
+                NextJS
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 7 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/tailwindcss.png"
                   alt="..."
@@ -104,13 +163,19 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-left"
+              >
                 TailwindCSS
               </h1>
             </div>
-            {/* 1 */}
+            {/* 8 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/bootstrap.png"
                   alt="..."
@@ -119,11 +184,19 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">Bootstrap</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-left"
+              >
+                Bootstrap
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 9 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/mysql.png"
                   alt="..."
@@ -132,11 +205,19 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">MySQL</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+              >
+                MySQL
+              </h1>
             </div>
-            {/* 1 */}
+            {/* 10 */}
             <div className="flex flex-col">
-              <div className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
                 <Image
                   src="/image/tools/midtrans-2.png"
                   alt="..."
@@ -145,7 +226,12 @@ const Skills = () => {
                   className="absolute"
                 />
               </div>
-              <h1 className="mx-auto mt-4 font-bold text-center">MIDTRANS</h1>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-right"
+              >
+                MIDTRANS
+              </h1>
             </div>
           </div>
         </div>
