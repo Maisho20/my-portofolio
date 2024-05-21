@@ -12,7 +12,7 @@ const Education = () => {
 
   return (
     <section
-      className="min-h-screen md:pt-10 pt-5 flex items-center"
+      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-10 pt-5 flex items-center"
       id="educations"
     >
       <div className="container mx-auto px-5">
@@ -40,7 +40,7 @@ const Education = () => {
             data-aos-delay="100"
           >
             {/* 1 */}
-            <motion.div
+            <div
               // ref={ref}
               // initial={{ y: "100%" }}
               // animate={inView ? { y: 0 } : {}}
@@ -68,14 +68,14 @@ const Education = () => {
                   D4 - Informatics Engineering
                 </h2>
                 <ul className="list-disc mulish text-xs md:text-sm font-semibold pl-5 mb-4">
-                  <li>Ungraduated {/*- GPA: 3.61/4.0*/}</li>
+                  <li>Ungraduated - GPA: 3.61/4.0{/*- GPA: 3.61/4.0*/}</li>
                 </ul>
                 <div className="flex justify-end items-center text-xs text-gray-400">
                   <FontAwesomeIcon icon={faCalendar} />
                   <h3 className="inline ml-2">August 2021 - Now</h3>
                 </div>
               </div>
-            </motion.div>
+            </div>
 
             {/* 2 */}
             {/* <motion.div
