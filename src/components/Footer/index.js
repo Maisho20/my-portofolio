@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer class="bg-gray-900">
       <div class="mx-auto w-full min-w-screen p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-center">
+        <div class="flex justify-center">
           <div class="mb-6 md:mb-0">
             <h1 class="self-center text-2xl font-semibold whitespace-nowrap text-white mb-3">
               Contacs
@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
         {/* icons */}
-        <div class="flex sm:justify-center sm:mt-0">
+        <div class="flex justify-center sm:mt-0">
           <a href="#" class="text-gray-500 hover:text-white">
             <svg
               class="w-4 h-4"
@@ -97,7 +97,7 @@ const Footer = () => {
 
         <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
 
-        <div class="sm:flex sm:items-center sm:justify-center">
+        <div class="flex items-center justify-center">
           <span class="text-sm sm:text-center text-gray-400">
             © 2024 <b>Sabbaha Naufal</b> . All Rights Reserved.
           </span>
