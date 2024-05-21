@@ -19,7 +19,7 @@ const NavBar = () => {
     };
   }, []);
 
-  const navbarClasses = `hidden md:flex items-center h-20 fixed top-0 left-0 right-0 bg-white z-10 ${
+  const navbarClasses = `hidden md:flex items-center h-20 fixed border-b border-gray-300 top-0 left-0 right-0 bg-white z-10 ${
     scrollShadow ? "shadow" : ""
   }`;
 
