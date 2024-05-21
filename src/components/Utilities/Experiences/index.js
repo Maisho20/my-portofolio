@@ -6,7 +6,7 @@ import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 const Experiences = () => {
   return (
     <section
-      className="min-h-screen md:pt-10 pt-5 flex items-center"
+      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-10 pt-5 flex items-center"
       id="experiences"
     >
       <div className="container mx-auto px-5">
