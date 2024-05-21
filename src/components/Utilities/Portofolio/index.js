@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 
 const Portofolio = () => {
   return (
-    <section className="min-h-screen md:pt-10 pt-0 flex items-center" id="home">
+    <section
+      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-10 pt-0 flex items-center"
+      id="home"
+    >
       <div className="container mx-auto px-5">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center">
           <div>
