@@ -6,7 +6,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section
-      className="mx-auto w-full min-w-screen p-4 py-6 min-h-screen md:pt-5 pt-5 flex items-center"
+      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-5 pt-5 flex items-center"
       id="projects"
     >
       <div className="container mx-auto px-5">
