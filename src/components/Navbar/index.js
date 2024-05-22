@@ -80,15 +80,6 @@ const NavBar = () => {
           >
             <a href="#skills">Skills</a>
           </motion.li>
-
-          <motion.li
-            initial={{ x: "100%", scale: 0 }}
-            animate={{ x: 0, scale: 1 }}
-            transition={{ delay: 0.3 }}
-            className="flex items-center hover:border-b-4"
-          >
-            <a href="#contact">Contact</a>
-          </motion.li>
         </ul>
       </div>
     </nav>
