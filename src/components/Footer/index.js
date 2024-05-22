@@ -15,7 +15,10 @@ const Footer = () => {
         {/* icons */}
         <div className="flex justify-center sm:mt-0">
           {/* 1 */}
-          <a href="#" className="text-gray-500 hover:text-white">
+          <a
+            href="mailto:bahajazz70@gmail.com"
+            className="text-gray-500 hover:text-white"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -29,7 +32,10 @@ const Footer = () => {
           </a>
 
           {/* 2 */}
-          <a href="#" className="text-gray-500 hover:text-white ms-5">
+          <a
+            href="http://discordapp.com/users/492548628653539330"
+            className="text-gray-500 hover:text-white ms-5"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -43,7 +49,10 @@ const Footer = () => {
           </a>
 
           {/* 3 */}
-          <a href="#" className="text-gray-500 hover:text-white ms-5">
+          <a
+            href="https://wa.me/+6281375766838/?text=urlencodedtext"
+            className="text-gray-500 hover:text-white ms-5"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -57,7 +66,10 @@ const Footer = () => {
           </a>
 
           {/* 4 */}
-          <a href="#" className="text-gray-500 hover:text-white ms-5">
+          <a
+            href="https://github.com/Maisho20"
+            className="text-gray-500 hover:text-white ms-5"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
