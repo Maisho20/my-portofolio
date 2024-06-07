@@ -233,6 +233,27 @@ const Skills = () => {
                 MIDTRANS
               </h1>
             </div>
+            {/* 11 */}
+            <div className="flex flex-col">
+              <div
+                className="relative w-16 h-16 rounded-full flex justify-center items-center shadow-lg shadow-gray-300 mx-auto"
+                data-aos="fade-down"
+              >
+                <Image
+                  src="/image/tools/flutter.png"
+                  alt="..."
+                  width={40}
+                  height={40}
+                  className="absolute"
+                />
+              </div>
+              <h1
+                className="mx-auto mt-4 font-bold text-center"
+                data-aos="fade-left"
+              >
+                Flutter
+              </h1>
+            </div>
           </div>
         </div>
       </div>

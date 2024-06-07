@@ -10,37 +10,39 @@ import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
-    <div className="relative">
-      <Navbar />
-      <div className="content-container mx-auto">
-        {/* home */}
-        <Portofolio />
-        {/* end home */}
+    <Fragment>
+      <div className="relative">
+        <Navbar />
+        <div className="content-container mx-auto">
+          {/* home */}
+          <Portofolio />
+          {/* end home */}
 
-        {/* about */}
-        <About />
-        {/* end about */}
+          {/* about */}
+          <About />
+          {/* end about */}
 
-        {/* education */}
-        <Education />
-        {/* end education */}
+          {/* education */}
+          <Education />
+          {/* end education */}
 
-        {/* experiences */}
-        <Experiences />
-        {/* end experiences */}
+          {/* experiences */}
+          <Experiences />
+          {/* end experiences */}
 
-        {/* projects */}
-        <Projects />
-        {/* end projects */}
+          {/* projects */}
+          <Projects />
+          {/* end projects */}
 
-        {/* skills */}
-        <Skills />
-        {/* end skills */}
+          {/* skills */}
+          <Skills />
+          {/* end skills */}
+        </div>
+        {/* Footer */}
+        <Footer />
+        {/* end footer */}
       </div>
-      {/* Footer */}
-      <Footer />
-      {/* end footer */}
-    </div>
+    </Fragment>
   );
 };
 

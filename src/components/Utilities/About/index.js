@@ -22,22 +22,25 @@ const About = () => {
 
           <div className="w-full md:w-4/5" data-aos="fade-left">
             <h1 className="text-md md:text-2xl font-bold mb-4 poppins text-center md:text-left">
-              Hello There
+              Hello Everyone!
             </h1>
             <p className="text-sm md:text-lg mb-4 mulish font-semibold">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              I am a full stack web developer who is passionate and eager to
+              learn new things. My experience in web development started when I
+              graduated from high school.
             </p>
             <p className="text-sm md:text-lg mb-4 mulish font-semibold">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              In 2021, I started attending a polytechnic in the city of Malang
+              to explore my passion. This educational journey sparked my
+              curiosity and encouraged me to create innovative and user-centered
+              web solutions.
             </p>
             <p className="text-sm md:text-lg mulish font-semibold">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+              My expertise covers almost all parts of web development, from
+              conceptualising and implementing ready-made designs as well as
+              designing pretty good backend systems. I feel challenged when
+              developing a website, always trying to achieve a balance between
+              aesthetics and performance of a website.
             </p>
           </div>
         </div>

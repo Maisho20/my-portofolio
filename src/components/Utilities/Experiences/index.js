@@ -58,13 +58,13 @@ const Experiences = () => {
                 </li> */}
                 </ul>
 
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <div className="flex justify-evenly items-center gap-2 p-1 shadow shadow-gray-400 rounded">
+                <div className="flex justify-center flex-wrap gap-2 mb-4">
+                  <div className="flex justify-evenly items-center gap-1 p-1 shadow shadow-gray-400 rounded">
                     <Image
                       src="/image/tools/laravel.png"
                       alt="NextJS"
-                      width={15}
-                      height={15}
+                      width={16}
+                      height={16}
                       className="items-center"
                     />
                     <Image />
