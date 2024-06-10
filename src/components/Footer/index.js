@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex justify-center">
           <div className="mb-6 md:mb-0">
             <h1 className="self-center text-2xl font-semibold whitespace-nowrap text-white mb-3">
-              Contacs
+              My Contact
             </h1>
           </div>
         </div>

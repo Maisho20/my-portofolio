@@ -32,9 +32,9 @@ const Projects = () => {
                 Smart City
               </h1>
               <p className="mulish text-xs md:text-base font-semibold mb-4">
-                Smart City is a website for accessing information related to one
-                of the programs in Malang district called Smart City. This
-                website was built using the Laravel framework.
+                Smart City website created using Laravel, Bootstrap CSS and
+                MySQL. This project contain information about Smart City program
+                in Malang Regency.
               </p>
               <div className="flex flex-wrap gap-2 mb-4 justify-center">
                 <div className="flex justify-evenly items-center gap-2 p-1 shadow shadow-gray-400 rounded">
@@ -80,7 +80,9 @@ const Projects = () => {
                 VacationPal
               </h1>
               <p className="mulish text-xs md:text-base font-semibold mb-4">
-                lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                VacationPal is a website that provides information about tourist
+                attractions in Indonesia. This website was built using the
+                Laravel framework.
               </p>
               <div className="flex flex-wrap gap-2 mb-4 justify-center">
                 <div className="flex justify-evenly items-center gap-2 p-1 shadow shadow-gray-400 rounded">
