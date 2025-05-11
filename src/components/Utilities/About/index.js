@@ -1,13 +1,10 @@
+"use client";
+import React from "react";
+
 const About = () => {
   return (
-    <section
-      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-10 pt-5 flex items-center"
-      id="about"
-    >
-      <div
-        className="container mx-auto px-5 flex flex-col justify-center"
-        data-aos=""
-      >
+    <section className="min-h-screen pt-20 flex items-center" id="about">
+      <div className="container mx-auto p-5 flex flex-col justify-center">
         <h1
           className="text-center font-bold text-4xl mb-10 bg-gray-200c"
           data-aos="fade-down"

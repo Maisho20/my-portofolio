@@ -2,11 +2,8 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <section
-      className="mx-auto w-full min-w-screen p-4 py-6 lg:py-8 min-h-screen md:pt-20 pt-5 flex items-center"
-      id="skills"
-    >
-      <div className="container mx-auto px-5">
+    <section className="min-h-screen pt-20 flex items-center" id="skills">
+      <div className="container mx-auto p-5">
         <h1 className="text-center font-bold text-4xl mb-10" data-aos="fade-up">
           Skills
         </h1>

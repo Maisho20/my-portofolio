@@ -19,6 +19,15 @@ export default function RootLayout({ children }) {
     AOS.init({
       duration: 800,
       once: false,
+
+      //callback saat animassi dimulai
+      onStart: () => {
+        document.body.style.overflow = "hidden"; // Sembunyikan overflow
+      },
+      // Callback saat animasi selesai
+      onComplete: () => {
+        document.body.style.overflow = "hidden"; // Kembalikan overflow
+      },
     });
   }, []);
 
@@ -49,7 +58,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
-        {children}
+        <div style={{ overflow: "hidden" }}>{children}</div>
       </body>
     </html>
   );
