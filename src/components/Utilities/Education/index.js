@@ -49,11 +49,11 @@ const Education = () => {
                   D4 - Informatics Engineering
                 </h2>
                 <ul className="list-disc mulish text-xs md:text-sm font-semibold pl-5 mb-4">
-                  <li>Ungraduated - GPA: 3.61/4.0{/*- GPA: 3.61/4.0*/}</li>
+                  <li>GPA: 3.71/4.0{/*- GPA: 3.61/4.0*/}</li>
                 </ul>
                 <div className="flex justify-end items-center text-xs text-gray-400">
                   <FontAwesomeIcon icon={faCalendar} />
-                  <h3 className="inline ml-2">August 2021 - Now</h3>
+                  <h3 className="inline ml-2">August 2021 - July 2025</h3>
                 </div>
               </div>
             </div>
