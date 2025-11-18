@@ -22,7 +22,7 @@ const About = () => {
               Hello Everyone!
             </h1>
             <p className="text-sm md:text-lg mb-4 mulish font-semibold">
-              I am a Front-End web developer who is passionate and eager to
+              I am a Full Stack Web Developer who is passionate and eager to
               learn new things. My experience in web development started when I
               graduated from high school.
             </p>
